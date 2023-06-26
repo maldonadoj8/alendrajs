@@ -48,12 +48,13 @@ export default function App() {
 	/**
 	 * Establece la representación visual del componente.
 	 * 
-	 * Utiliza la clase "app" de la libreria CSS de alendra.js
+	 * Utiliza la clase "app" de la libreria CSS de alendra`.js
 	 */
 	this.setPlantilla(
   /* html */ `
 		<div
 		class="app">
+			<p>Este es un ejemplo básico de HTML</p>
 		</div>
   `);
 
