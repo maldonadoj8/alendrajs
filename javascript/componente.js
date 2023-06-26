@@ -1,4 +1,10 @@
 /**
+ * @module Componente
+ * @description Este módulo define la función constructora para la clase 
+ * Componente.
+ */
+
+/**
  * @class 
  * 
  * Función constructora que permite la creación de objetos ideados para 

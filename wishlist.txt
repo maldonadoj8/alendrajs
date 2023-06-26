@@ -1,2 +1,0 @@
-"weeii_web_sdk": "https://gitlab.com/alendra-weeii/weeii_web_sdk.git",
-    "alendra.js"   : "https://gitlab.com/maldonadoj_8/alendra.js.git"
