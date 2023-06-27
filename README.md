@@ -1,4 +1,4 @@
-Git: https://gitlab.com/maldonadoj_8/alendra.js.git
+Git: https://github.com/maldonadoj8/alendrajs.git
 
 Componente.
 Es una función constructora que permite la creación de objetos ideados para 
