@@ -1,24 +1,35 @@
 /**
- * Importa la función constructora "Componente" de la libreria alendra.js.
+ * @module App
+ * @description Este módulo define la función constructora para el componente 
+ * principal de la aplicación.
  */
-import Componente from './node_modules/alendra.js/javascript/componente.js';
 
 /**
- * Importa la función constructora "Router" de la libreria alendra.js
+ * @type {typeof Componente}
+ * @description Importa la función constructora "Componente" de la libreria 
+ * alendrajs.
  */
-// import Router from './node_modules/alendra.js/javascript/router.js';
+// import Componente from '.ruta-a/javascript/componente.js';
+
+/**
+ * @type {typeof Router}
+ * @description Importa la función constructora "Router" de la libreria 
+ * alendrajs.
+ */
+// import Router from '.ruta-a/javascript/router.js';
 
 /**
  * Importa las funciones constructoras de los componentes que seran usados como 
  * vistas.
  */
-// import VistaN from './vistas/vista-n.js';
+// import VistaN from '.ruta-a/vistas/vista-n.js';
 
 /**
  * @interface
  * @implements {Componente}
+ * @class
  * 
- * Función constructora para el componente principal de una aplicación
+ * Función constructora para el componente principal de una aplicación.
  */
 export default function App() {
 	/**
@@ -39,76 +50,76 @@ export default function App() {
 	/**
 	 * Establece la representación visual del componente.
 	 * 
-	 * Utiliza la clase "app" de la libreria CSS de alendra.js
+	 * Utiliza la clase "app" de la libreria CSS de alendra`.js
 	 */
-	// this.setPlantilla(
-  // /* html */ `
-	// 	<div
-	// 	class="app">
-	// 	</div>
-  // `);
-
-//==============================================================================
-//------------------------------- Inicialización -------------------------------
-//==============================================================================
-
+	this.setPlantilla(
+	/* html */ `
+		<div
+		class="app">
+		</div>
+	`);
+	
+	//==============================================================================
+	//------------------------------- Inicialización -------------------------------
+	//==============================================================================
+	
+		/**
+		 * Establece la configuración para el routing de la aplicación
+		 */
+		// window.router.setContenedor(this.render());
+		// window.router.setCarpetaRaiz('carpetaRaiz');
+		// window.router.setRutas([
+		// 	{
+		// 		'url'  : 'vista-uno',
+		// 		'vista': new VistaUno()
+		// 	},
+		// 	{
+		// 		'url'  : 'vista-dos',
+		// 		'vista': new VistaDos()
+		// 	}
+		// ]);
+	
+	//==============================================================================
+	//--------------------------------- Variables ----------------------------------
+	//==============================================================================
+	
+	//==============================================================================
+	//---------------------------------- Métodos -----------------------------------
+	//==============================================================================
+	
+	//==============================================================================
+	//----------------------------------- Hooks ------------------------------------
+	//==============================================================================
+	
+	//==============================================================================
+	//---------------------------------- Eventos -----------------------------------
+	//==============================================================================
+	
+	//==============================================================================
+	//----------------------------------- Proxy ------------------------------------
+	//==============================================================================
+	
+	//==============================================================================
+	//------------------------------------ Apis ------------------------------------
+	//==============================================================================
+	
+	//==============================================================================
+	//---------------------------------- Interfaz ----------------------------------
+	//==============================================================================
+	
+	//==============================================================================
+	//---------------------------------- Creación ----------------------------------
+	//==============================================================================
+	
+	}			
+	
 	/**
-	 * Establece la configuración para el routing de la aplicación
+	 * Establece la herencia entre las funciones constructoras "App" y "Componente". 
 	 */
-	// window.router.setContenedor(this.render());
-	// window.router.setCarpetaRaiz('carpetaRaiz');
-	// window.router.setRutas([
-	// 	{
-	// 		'url'  : 'vista-uno',
-	// 		'vista': new VistaUno()
-	// 	},
-	// 	{
-	// 		'url'  : 'vista-dos',
-	// 		'vista': new VistaDos()
-	// 	}
-	// ]);
-
-//==============================================================================
-//--------------------------------- Variables ----------------------------------
-//==============================================================================
-
-//==============================================================================
-//---------------------------------- Métodos -----------------------------------
-//==============================================================================
-
-//==============================================================================
-//----------------------------------- Hooks ------------------------------------
-//==============================================================================
-
-//==============================================================================
-//---------------------------------- Eventos -----------------------------------
-//==============================================================================
-
-//==============================================================================
-//----------------------------------- Proxy ------------------------------------
-//==============================================================================
-
-//==============================================================================
-//------------------------------------ Apis ------------------------------------
-//==============================================================================
-
-//==============================================================================
-//---------------------------------- Interfaz ----------------------------------
-//==============================================================================
-
-//==============================================================================
-//---------------------------------- Creación ----------------------------------
-//==============================================================================
-
-}			
-
-/**
- * Establece la herencia entre las funciones constructoras "App" y "Componente". 
- */
-// App.prototype = Object.create(Componente.prototype);
-
-/**
- * Reestablece la función constructora "App" como constructor de los objetos 
- * "App" instanciados mediante el operador "new".
- */
-// App.prototype.constructor = App;
+	App.prototype = Object.create(Componente.prototype);
+	
+	/**
+	 * Reestablece la función constructora "App" como constructor de los objetos 
+	 * "App" instanciados mediante el operador "new".
+	 */
+	App.prototype.constructor = App;	
