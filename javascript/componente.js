@@ -807,3 +807,8 @@ Componente.prototype.onTouch = function(elemento, funcion) {
 
   Componente.prototype.idConRegistro = function(registro) {
     return `${registro.id_entidad}-${registro.id}`; }
+
+
+
+  Componente.prototype.plantilla = function() {
+    return this.html.outerHTML; };

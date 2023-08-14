@@ -643,6 +643,10 @@
     height: 64px;
     width : 64px; }
 
+  .sz-80p {
+    height: 80px;
+    width : 80px; }
+
   .sz-128p {
     height: 128px;
     width : 128px; }
@@ -714,6 +718,9 @@
   .hgh-480p {
     height: 480px; }
 
+  .hgh-720p {
+    height: 720px; }
+
 /*---------------------------------- Limite ----------------------------------*/
 
   .min-hgh0 {
@@ -731,8 +738,14 @@
   .wdh-100 {
     width: 100%; }
 
+  .wdh-60 {
+    width: 60%; }
+
   .wdh-50 {
     width: 50%; }
+
+  .wdh-40 {
+    width: 40%; }
 
 /*--------------------------------- Pixeles ----------------------------------*/
 
@@ -768,6 +781,9 @@
 
   .wdh-64p {
     width: 64px; }
+
+  .wdh-80p {
+    width: 80px; }
 
   .wdh-128p {
     width: 128px; }
@@ -947,6 +963,9 @@
 
   .px-48p {
     padding-inline: 48px !important; }
+
+  .px-80p {
+    padding-inline: 80px !important; }
 
 
   .px-rdesk32p {
@@ -1516,6 +1535,9 @@
   .flex-gap20p {
     gap: 20px; }
 
+  .flex-gap22p {
+    gap: 22px; }
+
   .flex-gap24p {
     gap: 24px; }
 
@@ -1524,6 +1546,9 @@
 
   .flex-gap40p {
     gap: 40px; }
+
+  .flex-gap46p {
+    gap: 46px; }
 
   .flex-gap48p {
     gap: 48px; }
