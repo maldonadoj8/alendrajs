@@ -1,5 +1,10 @@
 Git: https://github.com/maldonadoj8/alendrajs.git
 
+DESCRIPCION:
+Mini libreria creada con las ideas que he escuchado sobre ReactJS, Angular, etc.
+Mi intención es tener una comprensión básica de los mecanismos que deberia tener una libreria para crear interfaces antes de estudiar una en especifico.
+
+CONCEPTOS:
 Componente.
 Es una función constructora que permite la creación de objetos ideados para 
 encapsular la logica y la representación visual una parte de una interfaz 
